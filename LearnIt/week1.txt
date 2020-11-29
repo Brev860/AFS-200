@@ -1,0 +1,20 @@
+A(n) Dockerfile is a text file that contains a list of commands that the Docker daemon calls while creating an image.
+
+Docker Image is built within the YAML file and the hosted as a file in the Docker registry.
+
+1
+FROM ubuntu
+2
+PULL ./file
+3
+RUN make file
+4
+CMD python/file/f
+
+Docker image consists of which elements? All of these are correct
+
+NGinx is a web server which can also be used as a(n) reserve proxy, load balancer, mail proxy and HTTP cache.
+
+Common features seen in NGinx include (select all that apply): IP default address(wrong answer)
+
+What are the components of Docker? Docker Container, Docker Daemon(wrong answer)
