@@ -18,3 +18,67 @@ NGinx is a web server which can also be used as a(n) reserve proxy, load balance
 Common features seen in NGinx include (select all that apply): IP default address(wrong answer)
 
 What are the components of Docker? Docker Container, Docker Daemon(wrong answer)
+
+Docker works via a Docker engine that is composed these two key elements: Server and client
+
+Docker is an OS virtualized software platform that allows IT organizations to easily create, deploy, and run applications in Docker containers, which have all the dependencies with them.
+
+In a DevOps life cycle, where Docker really shines is deployment, because where you deploy your solution, you want to be able to guarantee the success of your code and the working production environment.
+
+Docker daemon is the background service running on the host that manages building, running, and distributing docker containers.
+
+Docker client is the command line tool allows the user to interact with the Docker daemon.
+
+Docker Store is, among other things, a registry of Docker images. You can think of the registry as a directory of all available Docker images.
+
+What are the elements of Docker images? docker-g-ls(wrong)
+
+Dockerfile contains which four commands? store list wrong
+
+Developing apps today requires so much more than writing code. Multiple languages, frameworks, architectures, and discontinuous interfaces between tools for each lifecycle stage creates enormous complexity.
+
+Docker simplifies and acelerates your workflow, while giving developers the freedom to innovate with their choice of tools, application stacks and deployment environments for each project.
+
+You can see all your images with docker images whereas you can see your running containers with docker ps and you can see all containers with docker ps -a
+
+An instance of an image is called a container.
+
+Interaction with docker containers is possible via CLI or REST API.
+
+To make daemon REST API reachable for unpriveliged users, it is necessary to configure Docker deamon to listen on TCP.
+
+Docker file is a script file which describes how a container image will be built.
+
+Docker is build on publicity available open source technologies.
+
+Container virtualization is a core lightweight process groups isolation.
+
+Container implement is based on set of Linux Kernel mechanisms and the process sources separation.
+
+Docker file provides a set of instructions to simplify the build process.
+
+All available commands are conceived to create image for standalone containers.
+
+The commands you write in a Dockerfile are almost identical to their equivalent Linux commands.
+
+What is the container virtualization? Container virtualization is in its core lightweight process groups isolation.
+
+
+What is namespace? Namespace provides a complete set of segregation for standalone container creation.
+
+What is the objective of namespace? To provide inter process communication with isolation and Docker
+
+What is the best part about the commands and a Dockerfile? The commands you write in a Dockerfile are almost identical to their equivalent Linux commands.
+
+
+
+
+
+
+
+
+
+
+
+
+
